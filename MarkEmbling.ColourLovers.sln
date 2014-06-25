@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkEmbling.ColourLovers", "MarkEmbling.ColourLovers.csproj", "{96093BA3-6F57-4422-965B-0E4C7F750FB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkEmbling.ColourLovers", "MarkEmbling.ColourLovers\MarkEmbling.ColourLovers.csproj", "{96093BA3-6F57-4422-965B-0E4C7F750FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkEmbling.ColourLovers.Tests", "..\MarkEmbling.ColourLovers.Tests\MarkEmbling.ColourLovers.Tests.csproj", "{4FB27711-D0FA-4EEE-B809-E6316D9A17BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkEmbling.ColourLovers.Tests", "MarkEmbling.ColourLovers.Tests\MarkEmbling.ColourLovers.Tests.csproj", "{4FB27711-D0FA-4EEE-B809-E6316D9A17BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
