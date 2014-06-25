@@ -34,6 +34,15 @@ namespace MarkEmbling.ColourLovers {
             color.NumberOfComments = int.Parse(element.Element("numComments").Value);
             color.NumberOfHearts = int.Parse(element.Element("numHearts").Value);
             color.Rank = int.Parse(element.Element("rank").Value);
+            color.DateCreated = DateTime.Parse(element.Element("dateCreated").Value);
+            color.Hex = element.Element("hex").Value;
+//            color.Rgb = RgbFromElement(element.Element("rgb"));
+//            color.Hsv = HsvFromElement(element.Element("hsv"));
+            color.Description = element.Element("description").Value;
+            color.Url = element.Element("url").Value;
+            color.ImageUrl = element.Element("imageUrl").Value;
+            color.BadgeUrl = element.Element("badgeUrl").Value;
+            color.ApiUrl = element.Element("apiUrl").Value;
             return color;
         }
     }
