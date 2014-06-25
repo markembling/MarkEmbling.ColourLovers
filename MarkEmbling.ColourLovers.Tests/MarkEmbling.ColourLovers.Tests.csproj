@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ColorDeserializerTests.cs" />
+    <Compile Include="ColorHsvTests.cs" />
+    <Compile Include="ColorRgbTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -26,16 +26,4 @@ namespace MarkEmbling.ColourLovers {
         public string BadgeUrl { get; set; }
         public string ApiUrl { get; set; }
     }
-
-    public class ColorRgb {
-        public int Red { get; set; }
-        public int Green { get; set; }
-        public int Blue { get; set; }
-    }
-
-    public class ColorHsv {
-        public int Hue { get; set; }
-        public int Saturation { get; set; }
-        public int Value { get; set; }
-    }
 }

@@ -28,6 +28,12 @@ namespace MarkEmbling.ColourLovers {
             var color = new Color();
             color.Id = int.Parse(element.Element("id").Value);
             color.Title = element.Element("title").Value;
+            color.Username = element.Element("userName").Value;
+            color.NumberOfViews = int.Parse(element.Element("numViews").Value);
+            color.NumberOfVotes = int.Parse(element.Element("numVotes").Value);
+            color.NumberOfComments = int.Parse(element.Element("numComments").Value);
+            color.NumberOfHearts = int.Parse(element.Element("numHearts").Value);
+            color.Rank = int.Parse(element.Element("rank").Value);
             return color;
         }
     }

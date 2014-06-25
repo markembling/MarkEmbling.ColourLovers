@@ -42,6 +42,8 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="ColorDeserializer.cs" />
+    <Compile Include="ColorHsv.cs" />
+    <Compile Include="ColorRgb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
